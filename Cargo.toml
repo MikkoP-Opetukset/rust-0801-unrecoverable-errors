@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+# Uncomment to abort instead of unwinding on panic in release builds.
+# See unwinding_vs_aborting() in src/main.rs.
+#
+# [profile.release]
+# panic = 'abort'
