@@ -4,6 +4,13 @@ Material for the Rust Programming course @ SAMK
 
 ## Setting `RUST_BACKTRACE` in RustRover
 
+> [!NOTE]
+> At least on my system RustRover seems to use `RUST_BACKTRACE=1` by default.
+> Try this, and if you see no difference in output between not setting the 
+> variable and setting it, then try running the cargo run from terminal with 
+> different settings. To set the variable in unix environments you can write 
+> the variable in front of the run command. `RUST_BACKTRACE=1 cargo run`
+
 To see a backtrace when a demo panics, set the `RUST_BACKTRACE` environment
 variable in the run configuration:
 
